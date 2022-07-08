@@ -1,0 +1,11 @@
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\RestSharp.dll
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\bin\Debug\RestSharp.xml
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\obj\Debug\PodatkovniSloj.csproj.AssemblyReference.cache
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\obj\Debug\PodatkovniSloj.csproj.CoreCompileInputs.cache
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\obj\Debug\PodatkovniSloj.csproj.CopyComplete
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\medical\Desktop\School\Marko OOP projekt\Projekt\DataLayer\obj\Debug\DataLayer.pdb

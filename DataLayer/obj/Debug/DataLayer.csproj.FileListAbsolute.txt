@@ -1,0 +1,22 @@
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\DataLayer.dll
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\DataLayer.pdb
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\Newtonsoft.Json.dll
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\RestSharp.dll
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\Newtonsoft.Json.xml
+B:\Prog\OOP Projekt\DataLayer\bin\Debug\RestSharp.xml
+B:\Prog\OOP Projekt\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+B:\Prog\OOP Projekt\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+B:\Prog\OOP Projekt\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+B:\Prog\OOP Projekt\DataLayer\obj\Debug\DataLayer.dll
+B:\Prog\OOP Projekt\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\RestSharp.dll
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\bin\Debug\RestSharp.xml
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\medical\Desktop\Marko OOP projekt\Projekt\OOP Projekt\DataLayer\obj\Debug\DataLayer.pdb

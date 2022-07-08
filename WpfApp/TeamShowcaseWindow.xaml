@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfApp.TeamShowcaseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:properties ="clr-namespace:WpfApp.Properties"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="TeamShowcaseWindow" Height="450" Width="800">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard Duration="00:00:00:5" Storyboard.TargetProperty="Opacity">
+                    <DoubleAnimation From="0" To="1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Name="lblHeadline" Content="{Binding Path=Country}" HorizontalAlignment="Center" FontSize="20" FontWeight="ExtraBold"/>
+        <Label Name="lblCode" Grid.Row="1" Content="{Binding Path=FifaCode}" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <Label  Grid.Row="2" Content="{x:Static properties:Resources.lblGamesPlayed}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblMatchesPlayed" Grid.Row="2" Content="{Binding Path=GamesPlayed}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="3" Content="{x:Static properties:Resources.lblWins}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblMatchesWon" Grid.Row="3" Content="{Binding Path=Wins}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="4" Content="{x:Static properties:Resources.lblDraws}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblMatchesDrawn" Grid.Row="4" Content="{Binding Path=Draws}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="5" Content="{x:Static properties:Resources.lblLosses}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblMatchesLost" Grid.Row="5" Content="{Binding Path=Losses}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="6" Content="{x:Static properties:Resources.lblScored}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblGoalsScored" Grid.Row="6" Content="{Binding Path=GoalsFor}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="7" Content="{x:Static properties:Resources.lblTaken}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblGoalsTaken" Grid.Row="7" Content="{Binding Path=GoalsAgainst}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        <Label  Grid.Row="8" Content="{x:Static properties:Resources.lblGoalDif}" HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Top"/>
+        <Label Name="lblGoalDif" Grid.Row="8" Content="{Binding Path=GoalDifferential}"  HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" VerticalAlignment="Bottom"/>
+        
+    </Grid>
+</Window>
